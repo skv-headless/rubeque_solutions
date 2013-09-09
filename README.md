@@ -30,4 +30,4 @@ TODO: Write usage instructions here
 
 
 run tests:
-    ruby -Ilib -Itest test/lib/*
+    rake test
