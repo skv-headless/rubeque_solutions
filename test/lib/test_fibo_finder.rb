@@ -1,8 +1,6 @@
-require "minitest"
-require "minitest/autorun"
-require "rubeque_solutions"
+require "test_helper"
 
-class TestReverseEachWord < MiniTest::Unit::TestCase
+class TestReverseEachWord < TestCase
   include RubequeSolutions
 
   def test_fibo_finder
