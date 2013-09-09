@@ -1,6 +1,6 @@
 require "test_helper"
 
-class TestReverseEachWord < TestCase
+class FiboFinderTest < TestCase
   include RubequeSolutions
 
   def test_fibo_finder
