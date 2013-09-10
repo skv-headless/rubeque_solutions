@@ -2,7 +2,7 @@ require "test_helper"
 
 class FiboFinderTest < TestCase
   def test_fibo_finder
-    util = RubequeSolutions::FiboFinder.new
+    util = RubequeSolutions::FiboFinder
     assert_equal 0, util.fibo_finder(0)
     assert_equal 1, util.fibo_finder(1)
     assert_equal 3, util.fibo_finder(4)
