@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    RubequeSolutions::ReverseEachWord.new.reverse_each_word('hello world')
 
 ## Contributing
 
