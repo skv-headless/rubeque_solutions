@@ -3,9 +3,7 @@ require "test_helper"
 class ConstantRuleTest < TestCase
   def test_lambda_fraternity
     even_check = Proc.new do |*two_numbers|
-      two_numbers.inject(true) {|result, number|
-        result && number.even?
-      }
+      two_numbers.inject(true) {|result, number| result && number.even?}
     end
 
     assert_equal [[2, 4], [8, 12]], [[2, 4], [1, 2], [8, 12]].select{|arr| even_check.call(*arr)}
